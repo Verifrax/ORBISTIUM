@@ -1,0 +1,6 @@
+{
+  "object": "epoch-0001-bootstrap",
+  "material": "digest-verification-placeholder",
+  "status": "bootstrap",
+  "notes": "Initial placeholder until formal signing or digest attestation flow is defined by the sovereign stack."
+}
