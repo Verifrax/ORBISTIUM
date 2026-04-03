@@ -1,13 +1,13 @@
 {
   "epoch_id": "epoch-0001-bootstrap",
   "timestamp": "2026-04-03T00:00:00Z",
-  "law_version": "SYNTAGMARIUM@pending-review",
-  "runtime_version": "CONSONORIUM@not-yet-established",
-  "graph_digest": "68dd3e66d63a898c291c499ada7b2b69bb7e2484decaa791cdf91a00ff4c6f27",
+  "law_version": "SYNTAGMARIUM@c2e23ad382b4cb665b5abc5731c7fb72ea6142fc",
+  "runtime_version": "CONSONORIUM@1eb29fe77b30db7ac375e4f46c9df5f747fc4c1f",
+  "graph_digest": "02f61c0a8649aac00dbc8916b2dd4595ae479457830447d1a100eede23ccbc27",
   "status": "BOOTSTRAP",
   "contradictions": [],
   "repairs": [],
   "quarantines": [],
   "trust_summary_digest": "ddcd6a9db0d925e69035af3694c3ee042ce380f12fe88a722372146b99a8a087",
-  "proof_bundle_digest": "fa1ac065c5a3a33fe243cb717a778dbad6545566b8abbc5fc32e973246e55135"
+  "proof_bundle_digest": "558cd202f51386bda8e8d2794b723f1e6221fd0eaec9d5ba7cb87163ac69689c"
 }
