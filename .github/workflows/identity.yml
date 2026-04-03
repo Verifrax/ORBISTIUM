@@ -1,0 +1,33 @@
+name: Identity
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  identity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify root identity files
+        run: |
+          set -euo pipefail
+          test -f README.md
+          test -f WORLD.md
+          test -f VERSION
+          test -f LICENSE
+      - name: Verify required directories
+        run: |
+          set -euo pipefail
+          for d in             current epochs indexes projections/repo-entry projections/host-entry projections/package-entry projections/artifact-entry             reports/daily reports/weekly reports/release signatures schemas tests
+          do
+            test -d "$d"
+          done
+      - name: Verify README boundary strings
+        run: |
+          set -euo pipefail
+          grep -Fqx "# ORBISTIUM" README.md
+          grep -Fq "ORBISTIUM is the canonical world-state repository for the Verifrax system." README.md
+          grep -Fq "ORBISTIUM does not define constitutional law." README.md
+          grep -Fq "SYNTAGMARIUM -> ORBISTIUM <- CONSONORIUM" README.md

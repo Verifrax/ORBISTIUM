@@ -1,0 +1,13 @@
+{
+  "epoch_id": "epoch-0001-bootstrap",
+  "timestamp": "2026-04-03T00:00:00Z",
+  "law_version": "SYNTAGMARIUM@pending-review",
+  "runtime_version": "CONSONORIUM@not-yet-established",
+  "graph_digest": "68dd3e66d63a898c291c499ada7b2b69bb7e2484decaa791cdf91a00ff4c6f27",
+  "status": "BOOTSTRAP",
+  "contradictions": [],
+  "repairs": [],
+  "quarantines": [],
+  "trust_summary_digest": "ddcd6a9db0d925e69035af3694c3ee042ce380f12fe88a722372146b99a8a087",
+  "proof_bundle_digest": "fa1ac065c5a3a33fe243cb717a778dbad6545566b8abbc5fc32e973246e55135"
+}

@@ -1,0 +1,7 @@
+{
+  "bundle_id": "proof-bundle-bootstrap",
+  "law_version": "SYNTAGMARIUM@pending-review",
+  "runtime_version": "CONSONORIUM@not-yet-established",
+  "graph_digest": "68dd3e66d63a898c291c499ada7b2b69bb7e2484decaa791cdf91a00ff4c6f27",
+  "notes": "Bootstrap placeholder proof bundle for initial ORBISTIUM state root."
+}
