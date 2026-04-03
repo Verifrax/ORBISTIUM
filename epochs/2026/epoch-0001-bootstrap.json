@@ -4,6 +4,6 @@
   "law_version": "SYNTAGMARIUM@ec85b470a8eec8f0f2a5cee0b91572f13d6d1065",
   "runtime_version": "CONSONORIUM@b93cc806c6570f8e71ff4bb577f4001ffe80dcf4",
   "graph_digest_source": "../../current/graph.json",
-  "status": "BOOTSTRAP",
-  "notes": "Initial immutable epoch archive seed copied from the bootstrap current-state boundary."
+  "status": "ACCEPTED_SOVEREIGN_LAYER",
+  "notes": "Initial accepted sovereign-layer epoch now records the three merged sovereign repositories and their dependency edges."
 }
