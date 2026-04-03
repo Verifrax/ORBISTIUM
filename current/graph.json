@@ -1,6 +1,43 @@
 {
   "law_version": "SYNTAGMARIUM@ec85b470a8eec8f0f2a5cee0b91572f13d6d1065",
-  "nodes": [],
-  "edges": [],
-  "graph_digest": "68dd3e66d63a898c291c499ada7b2b69bb7e2484decaa791cdf91a00ff4c6f27"
+  "nodes": [
+    {
+      "repo_id": "SYNTAGMARIUM",
+      "primary_role": "constitutional_law",
+      "default_branch": "main",
+      "license": "Apache-2.0",
+      "status": "merged-main"
+    },
+    {
+      "repo_id": "ORBISTIUM",
+      "primary_role": "world_state",
+      "default_branch": "main",
+      "license": "Apache-2.0",
+      "status": "merged-main"
+    },
+    {
+      "repo_id": "CONSONORIUM",
+      "primary_role": "reconciler",
+      "default_branch": "main",
+      "license": "Apache-2.0",
+      "status": "merged-main"
+    }
+  ],
+  "edges": [
+    {
+      "from": "SYNTAGMARIUM",
+      "to": "ORBISTIUM",
+      "type": "law_to_state"
+    },
+    {
+      "from": "SYNTAGMARIUM",
+      "to": "CONSONORIUM",
+      "type": "law_to_runtime"
+    },
+    {
+      "from": "CONSONORIUM",
+      "to": "ORBISTIUM",
+      "type": "runtime_to_state"
+    }
+  ]
 }

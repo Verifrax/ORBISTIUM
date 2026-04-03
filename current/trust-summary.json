@@ -1,4 +1,23 @@
 {
-  "objects": [],
-  "summary": "Bootstrap world-state baseline with no accepted governed inventory yet."
+  "objects": [
+    {
+      "object_id": "SYNTAGMARIUM",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "constitutional law surface present on protected main"
+    },
+    {
+      "object_id": "ORBISTIUM",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "accepted state surface present on protected main"
+    },
+    {
+      "object_id": "CONSONORIUM",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "runtime surface present on protected main"
+    }
+  ],
+  "summary": "Sovereign layer accepted with law, state, and runtime boundaries present on protected main."
 }

@@ -1,3 +1,25 @@
 {
-  "repositories": []
+  "repositories": [
+    {
+      "repo_id": "SYNTAGMARIUM",
+      "primary_role": "constitutional_law",
+      "default_branch": "main",
+      "license": "Apache-2.0",
+      "status": "merged-main"
+    },
+    {
+      "repo_id": "ORBISTIUM",
+      "primary_role": "world_state",
+      "default_branch": "main",
+      "license": "Apache-2.0",
+      "status": "merged-main"
+    },
+    {
+      "repo_id": "CONSONORIUM",
+      "primary_role": "reconciler",
+      "default_branch": "main",
+      "license": "Apache-2.0",
+      "status": "merged-main"
+    }
+  ]
 }

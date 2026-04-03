@@ -1,7 +1,7 @@
 {
-  "bundle_id": "proof-bundle-bootstrap",
+  "bundle_id": "proof-bundle-sovereign-layer-acceptance",
   "law_version": "SYNTAGMARIUM@ec85b470a8eec8f0f2a5cee0b91572f13d6d1065",
   "runtime_version": "CONSONORIUM@b93cc806c6570f8e71ff4bb577f4001ffe80dcf4",
-  "graph_digest": "eebf66bce5a17a6e2592eb2e5f551bf0c3a5bf5bd9bdd1c0a905ecc1ef095ec1",
-  "notes": "Bootstrap placeholder proof bundle for initial ORBISTIUM state root."
+  "graph_digest": "dd908f6b28adb8adc19e2342e210ef23c364e67838d91256e293d6f7ba35f67c",
+  "notes": "Accepted sovereign-layer graph derived from merged law and runtime surfaces."
 }
