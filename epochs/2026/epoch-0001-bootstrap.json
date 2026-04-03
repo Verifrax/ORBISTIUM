@@ -1,0 +1,9 @@
+{
+  "epoch_id": "epoch-0001-bootstrap",
+  "timestamp": "2026-04-03T00:00:00Z",
+  "law_version": "SYNTAGMARIUM@pending-review",
+  "runtime_version": "CONSONORIUM@not-yet-established",
+  "graph_digest_source": "../../current/graph.json",
+  "status": "BOOTSTRAP",
+  "notes": "Initial immutable epoch archive seed copied from the bootstrap current-state boundary."
+}
