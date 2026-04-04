@@ -403,6 +403,105 @@
       "license": null,
       "homepage": null,
       "html_url": "https://github.com/Verifrax/VERIFRAX-WWW"
+    },
+    {
+      "id": "host:api.verifrax.net",
+      "type": "Host",
+      "fqdn": "api.verifrax.net",
+      "role": "api",
+      "owning_repo": "VERIFRAX-API",
+      "host_class": "execution_api",
+      "status": "OBSERVED_OWNER_REPO_PRESENT"
+    },
+    {
+      "id": "host:apply.verifrax.net",
+      "type": "Host",
+      "fqdn": "apply.verifrax.net",
+      "role": "intake",
+      "owning_repo": "apply",
+      "host_class": "intake_surface",
+      "status": "OBSERVED_OWNER_REPO_PRESENT"
+    },
+    {
+      "id": "host:auctoriseal.verifrax.net",
+      "type": "Host",
+      "fqdn": "auctoriseal.verifrax.net",
+      "role": "authority",
+      "owning_repo": "AUCTORISEAL",
+      "host_class": "authority_surface",
+      "status": "OBSERVED_OWNER_REPO_PRESENT"
+    },
+    {
+      "id": "host:cicullis.verifrax.net",
+      "type": "Host",
+      "fqdn": "cicullis.verifrax.net",
+      "role": "enforcement",
+      "owning_repo": "cicullis",
+      "host_class": "enforcement_surface",
+      "status": "OBSERVED_OWNER_REPO_PRESENT"
+    },
+    {
+      "id": "host:corpiform.verifrax.net",
+      "type": "Host",
+      "fqdn": "corpiform.verifrax.net",
+      "role": "runtime_receipt",
+      "owning_repo": "CORPIFORM",
+      "host_class": "runtime_surface",
+      "status": "OBSERVED_OWNER_REPO_PRESENT"
+    },
+    {
+      "id": "host:docs.verifrax.net",
+      "type": "Host",
+      "fqdn": "docs.verifrax.net",
+      "role": "docs",
+      "owning_repo": "VERIFRAX-DOCS",
+      "host_class": "docs_surface",
+      "status": "OBSERVED_OWNER_REPO_PRESENT"
+    },
+    {
+      "id": "host:proof.verifrax.net",
+      "type": "Host",
+      "fqdn": "proof.verifrax.net",
+      "role": "proof_publication",
+      "owning_repo": "proof",
+      "host_class": "proof_surface",
+      "status": "OBSERVED_OWNER_REPO_PRESENT"
+    },
+    {
+      "id": "host:sigillarium.verifrax.net",
+      "type": "Host",
+      "fqdn": "sigillarium.verifrax.net",
+      "role": "seal_publication",
+      "owning_repo": "SIGILLARIUM",
+      "host_class": "seal_surface",
+      "status": "OBSERVED_OWNER_REPO_PRESENT"
+    },
+    {
+      "id": "host:status.verifrax.net",
+      "type": "Host",
+      "fqdn": "status.verifrax.net",
+      "role": "status",
+      "owning_repo": "VERIFRAX-STATUS",
+      "host_class": "status_surface",
+      "status": "OBSERVED_OWNER_REPO_PRESENT"
+    },
+    {
+      "id": "host:verify.verifrax.net",
+      "type": "Host",
+      "fqdn": "verify.verifrax.net",
+      "role": "verification",
+      "owning_repo": "VERIFRAX-verify",
+      "host_class": "verification_surface",
+      "status": "OBSERVED_OWNER_REPO_PRESENT"
+    },
+    {
+      "id": "host:www.verifrax.net",
+      "type": "Host",
+      "fqdn": "www.verifrax.net",
+      "role": "website",
+      "owning_repo": "VERIFRAX-WWW",
+      "host_class": "commercial_public",
+      "status": "OBSERVED_OWNER_REPO_PRESENT"
     }
   ],
   "edges": [
@@ -420,8 +519,64 @@
       "from": "CONSONORIUM",
       "to": "ORBISTIUM",
       "type": "runtime_to_state"
+    },
+    {
+      "from": "VERIFRAX-API",
+      "to": "host:api.verifrax.net",
+      "type": "owns_host"
+    },
+    {
+      "from": "apply",
+      "to": "host:apply.verifrax.net",
+      "type": "owns_host"
+    },
+    {
+      "from": "AUCTORISEAL",
+      "to": "host:auctoriseal.verifrax.net",
+      "type": "owns_host"
+    },
+    {
+      "from": "cicullis",
+      "to": "host:cicullis.verifrax.net",
+      "type": "owns_host"
+    },
+    {
+      "from": "CORPIFORM",
+      "to": "host:corpiform.verifrax.net",
+      "type": "owns_host"
+    },
+    {
+      "from": "VERIFRAX-DOCS",
+      "to": "host:docs.verifrax.net",
+      "type": "owns_host"
+    },
+    {
+      "from": "proof",
+      "to": "host:proof.verifrax.net",
+      "type": "owns_host"
+    },
+    {
+      "from": "SIGILLARIUM",
+      "to": "host:sigillarium.verifrax.net",
+      "type": "owns_host"
+    },
+    {
+      "from": "VERIFRAX-STATUS",
+      "to": "host:status.verifrax.net",
+      "type": "owns_host"
+    },
+    {
+      "from": "VERIFRAX-verify",
+      "to": "host:verify.verifrax.net",
+      "type": "owns_host"
+    },
+    {
+      "from": "VERIFRAX-WWW",
+      "to": "host:www.verifrax.net",
+      "type": "owns_host"
     }
   ],
   "repository_count": 31,
-  "edge_count": 3
+  "edge_count": 14,
+  "host_count": 11
 }
