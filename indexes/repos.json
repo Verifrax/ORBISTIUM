@@ -249,7 +249,7 @@
       "archived": false,
       "disabled": false,
       "license": "Apache-2.0",
-      "homepage": "https://verifrax.github.io/VERIFRAX-DOCS/",
+      "homepage": "https://docs.verifrax.net/",
       "html_url": "https://github.com/Verifrax/VERIFRAX-DOCS",
       "classification": "observed_repo"
     },
@@ -326,7 +326,7 @@
       "archived": false,
       "disabled": false,
       "license": "Apache-2.0",
-      "homepage": "https://verifrax.net/verify",
+      "homepage": "https://verify.verifrax.net/",
       "html_url": "https://github.com/Verifrax/VERIFRAX-verify",
       "classification": "observed_repo"
     },
