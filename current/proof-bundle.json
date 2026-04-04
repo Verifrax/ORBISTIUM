@@ -2,6 +2,6 @@
   "bundle_id": "proof-bundle-sovereign-layer-acceptance",
   "law_version": "SYNTAGMARIUM@6657b6369a884ad6d0677679aedaab5c82274a7b",
   "runtime_version": "CONSONORIUM@02696eaa2887d53661c0ec388c32863657797dbc",
-  "graph_digest": "45dca77dcaf945cc1c558d098c5b518e3e7b1eeec4e2343ec8c1f43cd16edb99",
+  "graph_digest": "6db1f5c435b0406d214abe132891bf90f684d14792794bd449d66b0f424d1395",
   "notes": "Accepted sovereign-layer graph derived from merged law and runtime surfaces."
 }
