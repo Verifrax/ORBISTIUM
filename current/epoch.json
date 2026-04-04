@@ -3,11 +3,11 @@
   "timestamp": "2026-04-03T00:00:00Z",
   "law_version": "SYNTAGMARIUM@6657b6369a884ad6d0677679aedaab5c82274a7b",
   "runtime_version": "CONSONORIUM@b215ea124a83efab4ad33459b7dd143a0c9e9b5c",
-  "graph_digest": "e186cdc2ae1d7ecb9da680b8f4dd148cd7e736c2f4c529657068fe201dfb545c",
+  "graph_digest": "c4cb6bf658a5fda4c30516c390ffe06d0e136638cda5039be5ac17a8977f0ca3",
   "status": "ACCEPTED_SOVEREIGN_LAYER",
   "contradictions": [],
   "repairs": [],
   "quarantines": [],
   "trust_summary_digest": "0172b103702a1ebd2e02f7a8619c4ee353cb30d0a441d008c5accf2e0a4898fb",
-  "proof_bundle_digest": "90b9be82862d497cf68c4ad1e42ef2e5fcced0db3cff62353a81a696d63c978e"
+  "proof_bundle_digest": "2f5f6dcbf2408fbb571f9e3757b33dfea27d26633df4c3c1fffb960f0d3c6e8f"
 }
