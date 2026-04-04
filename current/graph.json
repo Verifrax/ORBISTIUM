@@ -502,6 +502,226 @@
       "owning_repo": "VERIFRAX-WWW",
       "host_class": "commercial_public",
       "status": "OBSERVED_OWNER_REPO_PRESENT"
+    },
+    {
+      "id": "pkg:@verifrax/archicustos",
+      "type": "Package",
+      "package_id": "@verifrax/archicustos",
+      "source_repo": "archicustos",
+      "version": "0.1.0",
+      "private": false,
+      "manifest_path": "package.json",
+      "classification": "observed_package"
+    },
+    {
+      "id": "pkg:@verifrax/attestorium",
+      "type": "Package",
+      "package_id": "@verifrax/attestorium",
+      "source_repo": "attestorium",
+      "version": "0.1.0",
+      "private": false,
+      "manifest_path": "package.json",
+      "classification": "observed_package"
+    },
+    {
+      "id": "pkg:@verifrax/auctoriseal",
+      "type": "Package",
+      "package_id": "@verifrax/auctoriseal",
+      "source_repo": "AUCTORISEAL",
+      "version": "0.1.2",
+      "private": false,
+      "manifest_path": "package.json",
+      "classification": "observed_package"
+    },
+    {
+      "id": "pkg:@verifrax/corpiform",
+      "type": "Package",
+      "package_id": "@verifrax/corpiform",
+      "source_repo": "CORPIFORM",
+      "version": "0.1.4",
+      "private": false,
+      "manifest_path": "package.json",
+      "classification": "observed_package"
+    },
+    {
+      "id": "pkg:@verifrax/limenward",
+      "type": "Package",
+      "package_id": "@verifrax/limenward",
+      "source_repo": "limenward",
+      "version": "0.1.0",
+      "private": false,
+      "manifest_path": "package.json",
+      "classification": "observed_package"
+    },
+    {
+      "id": "pkg:mailsieve",
+      "type": "Package",
+      "package_id": "mailsieve",
+      "source_repo": "MAILSIEVE",
+      "version": "1.0.0",
+      "private": true,
+      "manifest_path": "package.json",
+      "classification": "observed_package"
+    },
+    {
+      "id": "pkg:@verifrax/originseal",
+      "type": "Package",
+      "package_id": "@verifrax/originseal",
+      "source_repo": "originseal",
+      "version": "0.1.0",
+      "private": false,
+      "manifest_path": "package.json",
+      "classification": "observed_package"
+    },
+    {
+      "id": "pkg:@sigillarium/core",
+      "type": "Package",
+      "package_id": "@sigillarium/core",
+      "source_repo": "SIGILLARIUM",
+      "version": "1.0.0",
+      "private": false,
+      "manifest_path": "packages/core/package.json",
+      "classification": "observed_package"
+    },
+    {
+      "id": "pkg:sigillarium",
+      "type": "Package",
+      "package_id": "sigillarium",
+      "source_repo": "SIGILLARIUM",
+      "version": "0.0.0",
+      "private": true,
+      "manifest_path": "package.json",
+      "classification": "observed_package"
+    },
+    {
+      "id": "pkg:sigillarium",
+      "type": "Package",
+      "package_id": "sigillarium",
+      "source_repo": "SIGILLARIUM",
+      "version": "0.0.0",
+      "private": false,
+      "manifest_path": "packages/cli/package.json",
+      "classification": "observed_package"
+    },
+    {
+      "id": "pkg:@verifrax/validexor",
+      "type": "Package",
+      "package_id": "@verifrax/validexor",
+      "source_repo": "validexor",
+      "version": "0.1.0",
+      "private": false,
+      "manifest_path": "package.json",
+      "classification": "observed_package"
+    },
+    {
+      "id": "pkg:@verifrax/root",
+      "type": "Package",
+      "package_id": "@verifrax/root",
+      "source_repo": "VERIFRAX",
+      "version": null,
+      "private": true,
+      "manifest_path": "package.json",
+      "classification": "observed_package"
+    },
+    {
+      "id": "pkg:@verifrax/root",
+      "type": "Package",
+      "package_id": "@verifrax/root",
+      "source_repo": "VERIFRAX",
+      "version": null,
+      "private": true,
+      "manifest_path": "verifrax-freeze/v2.8.0/source/VERIFRAX/package.json",
+      "classification": "observed_package"
+    },
+    {
+      "id": "pkg:verifrax-node-verifier",
+      "type": "Package",
+      "package_id": "verifrax-node-verifier",
+      "source_repo": "VERIFRAX",
+      "version": "0.1.0",
+      "private": false,
+      "manifest_path": "release-history/v1/verifier/node/package.json",
+      "classification": "observed_package"
+    },
+    {
+      "id": "pkg:verifrax-node-verifier",
+      "type": "Package",
+      "package_id": "verifrax-node-verifier",
+      "source_repo": "VERIFRAX",
+      "version": "0.1.0",
+      "private": false,
+      "manifest_path": "verifier/node/package.json",
+      "classification": "observed_package"
+    },
+    {
+      "id": "pkg:verifrax-node-verifier",
+      "type": "Package",
+      "package_id": "verifrax-node-verifier",
+      "source_repo": "VERIFRAX",
+      "version": "0.1.0",
+      "private": false,
+      "manifest_path": "verifrax-freeze/v2.8.0/source/VERIFRAX/release-history/v1/verifier/node/package.json",
+      "classification": "observed_package"
+    },
+    {
+      "id": "pkg:verifrax-node-verifier",
+      "type": "Package",
+      "package_id": "verifrax-node-verifier",
+      "source_repo": "VERIFRAX",
+      "version": "0.1.0",
+      "private": false,
+      "manifest_path": "verifrax-freeze/v2.8.0/source/VERIFRAX/verifier/node/package.json",
+      "classification": "observed_package"
+    },
+    {
+      "id": "pkg:verifrax-reference-verifier",
+      "type": "Package",
+      "package_id": "verifrax-reference-verifier",
+      "source_repo": "VERIFRAX",
+      "version": "2.4.0",
+      "private": false,
+      "manifest_path": "archive/verifrax-reference-verifier/package.json",
+      "classification": "observed_package"
+    },
+    {
+      "id": "pkg:verifrax-reference-verifier",
+      "type": "Package",
+      "package_id": "verifrax-reference-verifier",
+      "source_repo": "VERIFRAX",
+      "version": "2.4.0",
+      "private": false,
+      "manifest_path": "verifrax-freeze/v2.8.0/source/VERIFRAX/archive/verifrax-reference-verifier/package.json",
+      "classification": "observed_package"
+    },
+    {
+      "id": "pkg:@verifrax/root",
+      "type": "Package",
+      "package_id": "@verifrax/root",
+      "source_repo": "VERIFRAX-API",
+      "version": null,
+      "private": true,
+      "manifest_path": "package.json",
+      "classification": "observed_package"
+    },
+    {
+      "id": "pkg:verifrax-node-verifier",
+      "type": "Package",
+      "package_id": "verifrax-node-verifier",
+      "source_repo": "VERIFRAX-API",
+      "version": "0.1.0",
+      "private": false,
+      "manifest_path": "release-history/v1/verifier/node/package.json",
+      "classification": "observed_package"
+    },
+    {
+      "id": "pkg:verifrax-verify",
+      "type": "Package",
+      "package_id": "verifrax-verify",
+      "source_repo": "VERIFRAX-verify",
+      "version": "0.1.2",
+      "private": true,
+      "manifest_path": "package.json",
+      "classification": "observed_package"
     }
   ],
   "edges": [
@@ -574,9 +794,120 @@
       "from": "VERIFRAX-WWW",
       "to": "host:www.verifrax.net",
       "type": "owns_host"
+    },
+    {
+      "from": "archicustos",
+      "to": "pkg:@verifrax/archicustos",
+      "type": "publishes_package"
+    },
+    {
+      "from": "attestorium",
+      "to": "pkg:@verifrax/attestorium",
+      "type": "publishes_package"
+    },
+    {
+      "from": "AUCTORISEAL",
+      "to": "pkg:@verifrax/auctoriseal",
+      "type": "publishes_package"
+    },
+    {
+      "from": "CORPIFORM",
+      "to": "pkg:@verifrax/corpiform",
+      "type": "publishes_package"
+    },
+    {
+      "from": "limenward",
+      "to": "pkg:@verifrax/limenward",
+      "type": "publishes_package"
+    },
+    {
+      "from": "MAILSIEVE",
+      "to": "pkg:mailsieve",
+      "type": "publishes_package"
+    },
+    {
+      "from": "originseal",
+      "to": "pkg:@verifrax/originseal",
+      "type": "publishes_package"
+    },
+    {
+      "from": "SIGILLARIUM",
+      "to": "pkg:@sigillarium/core",
+      "type": "publishes_package"
+    },
+    {
+      "from": "SIGILLARIUM",
+      "to": "pkg:sigillarium",
+      "type": "publishes_package"
+    },
+    {
+      "from": "SIGILLARIUM",
+      "to": "pkg:sigillarium",
+      "type": "publishes_package"
+    },
+    {
+      "from": "validexor",
+      "to": "pkg:@verifrax/validexor",
+      "type": "publishes_package"
+    },
+    {
+      "from": "VERIFRAX",
+      "to": "pkg:@verifrax/root",
+      "type": "publishes_package"
+    },
+    {
+      "from": "VERIFRAX",
+      "to": "pkg:@verifrax/root",
+      "type": "publishes_package"
+    },
+    {
+      "from": "VERIFRAX",
+      "to": "pkg:verifrax-node-verifier",
+      "type": "publishes_package"
+    },
+    {
+      "from": "VERIFRAX",
+      "to": "pkg:verifrax-node-verifier",
+      "type": "publishes_package"
+    },
+    {
+      "from": "VERIFRAX",
+      "to": "pkg:verifrax-node-verifier",
+      "type": "publishes_package"
+    },
+    {
+      "from": "VERIFRAX",
+      "to": "pkg:verifrax-node-verifier",
+      "type": "publishes_package"
+    },
+    {
+      "from": "VERIFRAX",
+      "to": "pkg:verifrax-reference-verifier",
+      "type": "publishes_package"
+    },
+    {
+      "from": "VERIFRAX",
+      "to": "pkg:verifrax-reference-verifier",
+      "type": "publishes_package"
+    },
+    {
+      "from": "VERIFRAX-API",
+      "to": "pkg:@verifrax/root",
+      "type": "publishes_package"
+    },
+    {
+      "from": "VERIFRAX-API",
+      "to": "pkg:verifrax-node-verifier",
+      "type": "publishes_package"
+    },
+    {
+      "from": "VERIFRAX-verify",
+      "to": "pkg:verifrax-verify",
+      "type": "publishes_package"
     }
   ],
   "repository_count": 31,
-  "edge_count": 14,
-  "host_count": 11
+  "edge_count": 36,
+  "host_count": 11,
+  "package_count": 22
 }
