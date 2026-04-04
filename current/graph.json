@@ -1241,9 +1241,9 @@
       "badge_id": "CONSONORIUM:determinism-check.yml",
       "repo_id": "CONSONORIUM",
       "workflow_file": ".github/workflows/determinism-check.yml",
-      "badge_url": "https://github.com/Verifrax/CONSONORIUM/actions/workflows/determinism-check.yml/badge.svg?branch=midiakiasat/consonorium-runtime-foundation",
+      "badge_url": "https://github.com/Verifrax/CONSONORIUM/actions/workflows/determinism-check.yml/badge.svg?branch=main",
       "target_url": "https://github.com/Verifrax/CONSONORIUM/actions/workflows/determinism-check.yml",
-      "default_branch": "midiakiasat/consonorium-runtime-foundation",
+      "default_branch": "main",
       "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
     },
     {
@@ -1252,9 +1252,9 @@
       "badge_id": "CONSONORIUM:identity.yml",
       "repo_id": "CONSONORIUM",
       "workflow_file": ".github/workflows/identity.yml",
-      "badge_url": "https://github.com/Verifrax/CONSONORIUM/actions/workflows/identity.yml/badge.svg?branch=midiakiasat/consonorium-runtime-foundation",
+      "badge_url": "https://github.com/Verifrax/CONSONORIUM/actions/workflows/identity.yml/badge.svg?branch=main",
       "target_url": "https://github.com/Verifrax/CONSONORIUM/actions/workflows/identity.yml",
-      "default_branch": "midiakiasat/consonorium-runtime-foundation",
+      "default_branch": "main",
       "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
     },
     {
@@ -1428,9 +1428,9 @@
       "badge_id": "ORBISTIUM:determinism-check.yml",
       "repo_id": "ORBISTIUM",
       "workflow_file": ".github/workflows/determinism-check.yml",
-      "badge_url": "https://github.com/Verifrax/ORBISTIUM/actions/workflows/determinism-check.yml/badge.svg?branch=midiakiasat/orbistium-world-state-foundation",
+      "badge_url": "https://github.com/Verifrax/ORBISTIUM/actions/workflows/determinism-check.yml/badge.svg?branch=main",
       "target_url": "https://github.com/Verifrax/ORBISTIUM/actions/workflows/determinism-check.yml",
-      "default_branch": "midiakiasat/orbistium-world-state-foundation",
+      "default_branch": "main",
       "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
     },
     {
@@ -1439,9 +1439,9 @@
       "badge_id": "ORBISTIUM:identity.yml",
       "repo_id": "ORBISTIUM",
       "workflow_file": ".github/workflows/identity.yml",
-      "badge_url": "https://github.com/Verifrax/ORBISTIUM/actions/workflows/identity.yml/badge.svg?branch=midiakiasat/orbistium-world-state-foundation",
+      "badge_url": "https://github.com/Verifrax/ORBISTIUM/actions/workflows/identity.yml/badge.svg?branch=main",
       "target_url": "https://github.com/Verifrax/ORBISTIUM/actions/workflows/identity.yml",
-      "default_branch": "midiakiasat/orbistium-world-state-foundation",
+      "default_branch": "main",
       "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
     },
     {
@@ -1549,9 +1549,9 @@
       "badge_id": "SYNTAGMARIUM:determinism-check.yml",
       "repo_id": "SYNTAGMARIUM",
       "workflow_file": ".github/workflows/determinism-check.yml",
-      "badge_url": "https://github.com/Verifrax/SYNTAGMARIUM/actions/workflows/determinism-check.yml/badge.svg?branch=midiakiasat/syntagmarium-constitutional-foundation",
+      "badge_url": "https://github.com/Verifrax/SYNTAGMARIUM/actions/workflows/determinism-check.yml/badge.svg?branch=main",
       "target_url": "https://github.com/Verifrax/SYNTAGMARIUM/actions/workflows/determinism-check.yml",
-      "default_branch": "midiakiasat/syntagmarium-constitutional-foundation",
+      "default_branch": "main",
       "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
     },
     {
@@ -1560,9 +1560,9 @@
       "badge_id": "SYNTAGMARIUM:identity.yml",
       "repo_id": "SYNTAGMARIUM",
       "workflow_file": ".github/workflows/identity.yml",
-      "badge_url": "https://github.com/Verifrax/SYNTAGMARIUM/actions/workflows/identity.yml/badge.svg?branch=midiakiasat/syntagmarium-constitutional-foundation",
+      "badge_url": "https://github.com/Verifrax/SYNTAGMARIUM/actions/workflows/identity.yml/badge.svg?branch=main",
       "target_url": "https://github.com/Verifrax/SYNTAGMARIUM/actions/workflows/identity.yml",
-      "default_branch": "midiakiasat/syntagmarium-constitutional-foundation",
+      "default_branch": "main",
       "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
     },
     {

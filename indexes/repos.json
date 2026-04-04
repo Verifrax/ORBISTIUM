@@ -79,7 +79,7 @@
     },
     {
       "repo_id": "CONSONORIUM",
-      "default_branch": "midiakiasat/consonorium-runtime-foundation",
+      "default_branch": "main",
       "visibility": "public",
       "archived": false,
       "disabled": false,
@@ -156,7 +156,7 @@
     },
     {
       "repo_id": "ORBISTIUM",
-      "default_branch": "midiakiasat/orbistium-world-state-foundation",
+      "default_branch": "main",
       "visibility": "public",
       "archived": false,
       "disabled": false,
@@ -200,7 +200,7 @@
     },
     {
       "repo_id": "SYNTAGMARIUM",
-      "default_branch": "midiakiasat/syntagmarium-constitutional-foundation",
+      "default_branch": "main",
       "visibility": "public",
       "archived": false,
       "disabled": false,
