@@ -2,12 +2,12 @@
   "epoch_id": "epoch-0001-bootstrap",
   "timestamp": "2026-04-03T00:00:00Z",
   "law_version": "SYNTAGMARIUM@ec85b470a8eec8f0f2a5cee0b91572f13d6d1065",
-  "runtime_version": "CONSONORIUM@412163f6925d0ba2845713cc3969ec4c2354c402",
+  "runtime_version": "CONSONORIUM@ba6a604294721d1f8e7f97852423cf174889f2c0",
   "graph_digest": "dd908f6b28adb8adc19e2342e210ef23c364e67838d91256e293d6f7ba35f67c",
   "status": "ACCEPTED_SOVEREIGN_LAYER",
   "contradictions": [],
   "repairs": [],
   "quarantines": [],
   "trust_summary_digest": "0172b103702a1ebd2e02f7a8619c4ee353cb30d0a441d008c5accf2e0a4898fb",
-  "proof_bundle_digest": "22d3ca33b51d6abe46131b71fb7625d3d58c3baa635aa8d8946e11c193b14743"
+  "proof_bundle_digest": "7f6759cca860babaf1602a3c4ebfc36912358b7034f010c401ed4aeadf6f1e06"
 }
