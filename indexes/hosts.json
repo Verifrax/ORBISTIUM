@@ -1,3 +1,115 @@
 {
-  "hosts": []
+  "hosts": [
+    {
+      "fqdn": "api.verifrax.net",
+      "role": "api",
+      "owning_repo": "VERIFRAX-API",
+      "host_class": "execution_api",
+      "required_adjacent_links": [],
+      "forbidden_semantics": [],
+      "body_contract": {},
+      "status": "OBSERVED_OWNER_REPO_PRESENT"
+    },
+    {
+      "fqdn": "apply.verifrax.net",
+      "role": "intake",
+      "owning_repo": "apply",
+      "host_class": "intake_surface",
+      "required_adjacent_links": [],
+      "forbidden_semantics": [],
+      "body_contract": {},
+      "status": "OBSERVED_OWNER_REPO_PRESENT"
+    },
+    {
+      "fqdn": "auctoriseal.verifrax.net",
+      "role": "authority",
+      "owning_repo": "AUCTORISEAL",
+      "host_class": "authority_surface",
+      "required_adjacent_links": [],
+      "forbidden_semantics": [],
+      "body_contract": {},
+      "status": "OBSERVED_OWNER_REPO_PRESENT"
+    },
+    {
+      "fqdn": "cicullis.verifrax.net",
+      "role": "enforcement",
+      "owning_repo": "cicullis",
+      "host_class": "enforcement_surface",
+      "required_adjacent_links": [],
+      "forbidden_semantics": [],
+      "body_contract": {},
+      "status": "OBSERVED_OWNER_REPO_PRESENT"
+    },
+    {
+      "fqdn": "corpiform.verifrax.net",
+      "role": "runtime_receipt",
+      "owning_repo": "CORPIFORM",
+      "host_class": "runtime_surface",
+      "required_adjacent_links": [],
+      "forbidden_semantics": [],
+      "body_contract": {},
+      "status": "OBSERVED_OWNER_REPO_PRESENT"
+    },
+    {
+      "fqdn": "docs.verifrax.net",
+      "role": "docs",
+      "owning_repo": "VERIFRAX-DOCS",
+      "host_class": "docs_surface",
+      "required_adjacent_links": [],
+      "forbidden_semantics": [],
+      "body_contract": {},
+      "status": "OBSERVED_OWNER_REPO_PRESENT"
+    },
+    {
+      "fqdn": "proof.verifrax.net",
+      "role": "proof_publication",
+      "owning_repo": "proof",
+      "host_class": "proof_surface",
+      "required_adjacent_links": [],
+      "forbidden_semantics": [],
+      "body_contract": {},
+      "status": "OBSERVED_OWNER_REPO_PRESENT"
+    },
+    {
+      "fqdn": "sigillarium.verifrax.net",
+      "role": "seal_publication",
+      "owning_repo": "SIGILLARIUM",
+      "host_class": "seal_surface",
+      "required_adjacent_links": [],
+      "forbidden_semantics": [],
+      "body_contract": {},
+      "status": "OBSERVED_OWNER_REPO_PRESENT"
+    },
+    {
+      "fqdn": "status.verifrax.net",
+      "role": "status",
+      "owning_repo": "VERIFRAX-STATUS",
+      "host_class": "status_surface",
+      "required_adjacent_links": [],
+      "forbidden_semantics": [],
+      "body_contract": {},
+      "status": "OBSERVED_OWNER_REPO_PRESENT"
+    },
+    {
+      "fqdn": "verify.verifrax.net",
+      "role": "verification",
+      "owning_repo": "VERIFRAX-verify",
+      "host_class": "verification_surface",
+      "required_adjacent_links": [],
+      "forbidden_semantics": [],
+      "body_contract": {},
+      "status": "OBSERVED_OWNER_REPO_PRESENT"
+    },
+    {
+      "fqdn": "www.verifrax.net",
+      "role": "website",
+      "owning_repo": "VERIFRAX-WWW",
+      "host_class": "commercial_public",
+      "required_adjacent_links": [],
+      "forbidden_semantics": [],
+      "body_contract": {},
+      "status": "OBSERVED_OWNER_REPO_PRESENT"
+    }
+  ],
+  "skipped_host_bindings": []
 }
