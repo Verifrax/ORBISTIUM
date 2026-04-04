@@ -1,7 +1,7 @@
 {
   "epoch_id": "epoch-0001-bootstrap",
   "timestamp": "2026-04-03T00:00:00Z",
-  "law_version": "SYNTAGMARIUM@ec85b470a8eec8f0f2a5cee0b91572f13d6d1065",
+  "law_version": "SYNTAGMARIUM@6657b6369a884ad6d0677679aedaab5c82274a7b",
   "runtime_version": "CONSONORIUM@ba6a604294721d1f8e7f97852423cf174889f2c0",
   "graph_digest_source": "../../current/graph.json",
   "status": "ACCEPTED_SOVEREIGN_LAYER",
