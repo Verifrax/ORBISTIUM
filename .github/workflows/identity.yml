@@ -31,3 +31,8 @@ jobs:
           grep -Fq "ORBISTIUM is the canonical world-state repository for the Verifrax system." README.md
           grep -Fq "ORBISTIUM does not define constitutional law." README.md
           grep -Fq "SYNTAGMARIUM -> ORBISTIUM <- CONSONORIUM" README.md
+
+      - name: Verify current-state test surface
+        run: |
+          set -euo pipefail
+          test -f tests/test_current_state.py

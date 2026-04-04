@@ -19,3 +19,8 @@ jobs:
           set -euo pipefail
           cp .determinism-current.txt .determinism-copy.txt
           diff -u .determinism-current.txt .determinism-copy.txt
+
+      - name: Run current-state tests
+        run: |
+          set -euo pipefail
+          python3 -m unittest tests/test_current_state.py
