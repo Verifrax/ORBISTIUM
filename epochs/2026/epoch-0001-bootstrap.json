@@ -2,7 +2,7 @@
   "epoch_id": "epoch-0001-bootstrap",
   "timestamp": "2026-04-03T00:00:00Z",
   "law_version": "SYNTAGMARIUM@ec85b470a8eec8f0f2a5cee0b91572f13d6d1065",
-  "runtime_version": "CONSONORIUM@b93cc806c6570f8e71ff4bb577f4001ffe80dcf4",
+  "runtime_version": "CONSONORIUM@412163f6925d0ba2845713cc3969ec4c2354c402",
   "graph_digest_source": "../../current/graph.json",
   "status": "ACCEPTED_SOVEREIGN_LAYER",
   "notes": "Initial accepted sovereign-layer epoch now records the three merged sovereign repositories and their dependency edges."
