@@ -1,3 +1,84 @@
 {
-  "evidence_surfaces": []
+  "evidence_surfaces": [
+    {
+      "surface_id": "current:graph.json",
+      "path": "current/graph.json",
+      "media_type": "application/json",
+      "role": "current_graph",
+      "owning_repo": "ORBISTIUM",
+      "sha256": "3acf36da21957fdc4e116159582ae0b2cd472447530df4c47e7c0a0f25ca6bd0",
+      "bytes": 26017,
+      "status": "ACTIVE_CURRENT_TRUTH"
+    },
+    {
+      "surface_id": "current:epoch.json",
+      "path": "current/epoch.json",
+      "media_type": "application/json",
+      "role": "current_epoch",
+      "owning_repo": "ORBISTIUM",
+      "sha256": "5007b0e0560a1f27b518732bd56ee60b6924fe71fffe7f5352571c1521b5775f",
+      "bytes": 606,
+      "status": "ACTIVE_CURRENT_TRUTH"
+    },
+    {
+      "surface_id": "current:trust-summary.json",
+      "path": "current/trust-summary.json",
+      "media_type": "application/json",
+      "role": "trust_summary",
+      "owning_repo": "ORBISTIUM",
+      "sha256": "ef671bc27ec1d8096fa00ad1ba23d10020acda18b15b46006460906bb39b501b",
+      "bytes": 690,
+      "status": "ACTIVE_CURRENT_TRUTH"
+    },
+    {
+      "surface_id": "current:contradictions.json",
+      "path": "current/contradictions.json",
+      "media_type": "application/json",
+      "role": "contradictions",
+      "owning_repo": "ORBISTIUM",
+      "sha256": "fb20c3f5877d7ca0e4d3742acef30dd38a1ac746060d14e3f9ee52cd1a2bfd19",
+      "bytes": 113,
+      "status": "ACTIVE_CURRENT_TRUTH"
+    },
+    {
+      "surface_id": "current:repairs.json",
+      "path": "current/repairs.json",
+      "media_type": "application/json",
+      "role": "repairs",
+      "owning_repo": "ORBISTIUM",
+      "sha256": "bf645dfb8d264a5db5cb54091f33921ebf5600b396cbeeede795d1415b9e6e5a",
+      "bytes": 111,
+      "status": "ACTIVE_CURRENT_TRUTH"
+    },
+    {
+      "surface_id": "current:quarantine.json",
+      "path": "current/quarantine.json",
+      "media_type": "application/json",
+      "role": "quarantine",
+      "owning_repo": "ORBISTIUM",
+      "sha256": "c857a2a9d47149d171b12bc8868cb044bd470a87dfa577b4d8177438c622c926",
+      "bytes": 105,
+      "status": "ACTIVE_CURRENT_TRUTH"
+    },
+    {
+      "surface_id": "current:proof-bundle.json",
+      "path": "current/proof-bundle.json",
+      "media_type": "application/json",
+      "role": "proof_bundle",
+      "owning_repo": "ORBISTIUM",
+      "sha256": "92b4cd8e612059579c7d1e0a193799a6a735faeec7ac72d65e73dc206dd4b482",
+      "bytes": 389,
+      "status": "ACTIVE_CURRENT_TRUTH"
+    },
+    {
+      "surface_id": "current:digest.txt",
+      "path": "current/digest.txt",
+      "media_type": "text/plain",
+      "role": "digest_manifest",
+      "owning_repo": "ORBISTIUM",
+      "sha256": "22a37e0565b9adb53c596cd62304506de875c560edc489743cdfc4aaa08bca19",
+      "bytes": 626,
+      "status": "ACTIVE_CURRENT_TRUTH"
+    }
+  ]
 }
