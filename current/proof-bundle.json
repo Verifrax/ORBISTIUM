@@ -1,9 +1,10 @@
 {
   "status": "provisional",
-  "law_version": "0.1.0",
-  "law_ref": "c8b099a",
+  "law_version": "SYNTAGMARIUM@6657b6369a884ad6d0677679aedaab5c82274a7b",
+  "law_ref": "6657b6369a884ad6d0677679aedaab5c82274a7b",
   "runtime_version": "0.1.0",
   "runtime_ref": "4b7505c",
   "projection_digests": [],
-  "report_digests": []
+  "report_digests": [],
+  "graph_digest": "765d1ed5102fe70187515ff2c962ac671b5a94d59495dc54bbce4566ef83b238"
 }
