@@ -1,29 +1,10 @@
 {
-  "objects": [
-    {
-      "object_id": "SYNTAGMARIUM",
-      "status": "PASS",
-      "severity": "none",
-      "summary": "constitutional law surface present on protected main"
-    },
-    {
-      "object_id": "ORBISTIUM",
-      "status": "PASS",
-      "severity": "none",
-      "summary": "accepted state surface present on protected main"
-    },
-    {
-      "object_id": "CONSONORIUM",
-      "status": "PASS",
-      "severity": "none",
-      "summary": "runtime surface present on protected main"
-    }
-  ],
-  "summary": "Sovereign layer accepted with law, state, and runtime boundaries present on protected main.",
-  "repository_count": 31,
-  "host_count": 11,
-  "package_count": 22,
-  "evidence_surface_count": 8,
-  "artifact_count": 9,
-  "badge_count": 134
+  "status": "provisional",
+  "objects": [],
+  "aggregate": {
+    "healthy": 0,
+    "repairable": 0,
+    "quarantined": 0,
+    "unknown": 0
+  }
 }

@@ -1,0 +1,17 @@
+{
+  "law_repo": "SYNTAGMARIUM",
+  "law_ref": "6657b6369a884ad6d0677679aedaab5c82274a7b",
+  "schemas": [
+    "schemas/epoch/epoch.schema.json",
+    "schemas/graph/world.schema.json",
+    "schemas/object/artifact.schema.json",
+    "schemas/object/badge.schema.json",
+    "schemas/object/evidence_surface.schema.json",
+    "schemas/object/host.schema.json",
+    "schemas/object/package.schema.json",
+    "schemas/object/quarantine_record.schema.json",
+    "schemas/object/repair_plan.schema.json",
+    "schemas/object/repository.schema.json",
+    "schemas/object/trust_summary.schema.json"
+  ]
+}
