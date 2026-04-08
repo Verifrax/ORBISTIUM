@@ -1,13 +1,13 @@
 {
-  "epoch_id": "epoch-0001-bootstrap",
-  "timestamp": "2026-04-03T00:00:00Z",
-  "law_version": "SYNTAGMARIUM@6657b6369a884ad6d0677679aedaab5c82274a7b",
-  "runtime_version": "CONSONORIUM@02696eaa2887d53661c0ec388c32863657797dbc",
-  "graph_digest": "6db1f5c435b0406d214abe132891bf90f684d14792794bd449d66b0f424d1395",
-  "status": "ACCEPTED_SOVEREIGN_LAYER",
+  "epoch_id": "epoch-20260408T000000Z-provisional",
+  "timestamp": "2026-04-08T00:00:00Z",
+  "law_version": "0.1.0",
+  "runtime_version": "0.1.0",
+  "graph_digest": "sha256:2da3c495dc7aafb90e322820e36610debe4c4dade15d6e669425dfff9e8dcfff",
+  "status": "provisional",
   "contradictions": [],
   "repairs": [],
   "quarantines": [],
-  "trust_summary_digest": "0172b103702a1ebd2e02f7a8619c4ee353cb30d0a441d008c5accf2e0a4898fb",
-  "proof_bundle_digest": "013982494b976029086aa859df29338ca0f295da4068fffad80294bf4b585ea2"
+  "trust_summary_digest": "sha256:2897ab0342b1adf9e8188d2a8a9d1941a3ac42600afa340aa8435a428caf03d6",
+  "proof_bundle_digest": "sha256:b4d0f402fab9480aa731b11ac0b2e2ea5b8824dd3a231a86b2b6071095bc4829"
 }
