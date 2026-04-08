@@ -38,6 +38,29 @@ This repository is the accepted state store.
 It is not the law source.
 It is not the runtime.
 
+## Sovereign wiring
+
+**Inputs**
+- accepted reconciliation outputs from CONSONORIUM
+- law context defined by SYNTAGMARIUM
+
+**Outputs**
+- canonical accepted current state
+- immutable epoch history
+- state references consumed by public proof and verification surfaces
+
+## Acceptance boundary
+
+ORBISTIUM stores accepted state only.
+
+CONSONORIUM may propose candidates.
+CONSONORIUM may not self-ratify accepted state.
+Direct ad hoc edits to accepted current truth violate the sovereign boundary.
+
+## Non-bypass rule
+
+No runtime candidate, projection artifact, or operator shortcut may outrank accepted epoch state once written here.
+
 ## License
 
 Apache License 2.0
