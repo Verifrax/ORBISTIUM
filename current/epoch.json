@@ -3,11 +3,11 @@
   "timestamp": "2026-04-08T00:00:00Z",
   "law_version": "0.1.0",
   "runtime_version": "0.1.0",
-  "graph_digest": "sha256:2da3c495dc7aafb90e322820e36610debe4c4dade15d6e669425dfff9e8dcfff",
+  "graph_digest": "193f3b672cdeb747f4f6d3c3b3c37794a2466f9beb11c37564d4feeb08e26259",
   "status": "provisional",
   "contradictions": [],
   "repairs": [],
   "quarantines": [],
-  "trust_summary_digest": "sha256:2897ab0342b1adf9e8188d2a8a9d1941a3ac42600afa340aa8435a428caf03d6",
-  "proof_bundle_digest": "sha256:b4d0f402fab9480aa731b11ac0b2e2ea5b8824dd3a231a86b2b6071095bc4829"
+  "trust_summary_digest": "8d00d51240abc1095fb4605ebf3d780daab15b75d31fbb2a81d0de40d45dee6c",
+  "proof_bundle_digest": "68f9b03abf16023a14b8301eb2838146d9ea2e9cb74e69096c51d1f7d9142bdf"
 }
