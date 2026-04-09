@@ -1,0 +1,19 @@
+{
+  "epoch_id": "epoch-20260408T000000Z-provisional",
+  "law_version": "SYNTAGMARIUM@6657b6369a884ad6d0677679aedaab5c82274a7b",
+  "graph_digest": "765d1ed5102fe70187515ff2c962ac671b5a94d59495dc54bbce4566ef83b238",
+  "verdict_count": 1,
+  "verdicts": [
+    {
+      "verdict_id": "example-0001",
+      "law_ref": "SYNTAGMARIUM@6657b6369a884ad6d0677679aedaab5c82274a7b",
+      "epoch_id": "epoch-20260408T000000Z-provisional",
+      "graph_digest": "765d1ed5102fe70187515ff2c962ac671b5a94d59495dc54bbce4566ef83b238",
+      "state_ref": "ORBISTIUM@current",
+      "execution_ref": "receipt:example-0001",
+      "proof_ref": "proof:artifact-0001",
+      "verifier_version": "0.2.0",
+      "verdict": "INDETERMINATE"
+    }
+  ]
+}
