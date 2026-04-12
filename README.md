@@ -1,5 +1,7 @@
 # ORBISTIUM
 
+ORBISTIUM is the canonical world-state repository for the Verifrax system.
+
 ORBISTIUM is the Verifrax canonical world-state boundary: the public surface that defines what becomes canonical state in-system without becoming constitutional law, sovereign cognition, reconciliation, execution, or verification.
 
 ## Status
@@ -13,6 +15,7 @@ This repository owns canonical world-state only.
 Canonical world-state here means the bounded system surface where a state becomes canonical as state-of-record for the ORBISTIUM boundary.
 
 It does not author constitutional law.
+ORBISTIUM does not define constitutional law.
 It does not perform sovereign cognition.
 It does not perform reconciliation or repair.
 It does not execute.
@@ -52,6 +55,8 @@ It does not replace adjacent sovereign boundaries.
 - `AUCTORISEAL` defines authority issuance
 - `VERIFRAX-verify` defines public verification
 - `proof` defines proof publication
+
+SYNTAGMARIUM -> ORBISTIUM <- CONSONORIUM
 
 ORBISTIUM holds canonical state.
 It does not decide doctrine.
