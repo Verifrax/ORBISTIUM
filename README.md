@@ -32,6 +32,7 @@ It does not replace adjacent sovereign boundaries.
 - preserves state-of-record language as a bounded sovereign function
 - provides a clean state boundary for adjacent repositories and public readers
 - anchors what counts as canonical here versus what merely points at canonical state
+- publishes the current accepted-epoch object for canonical world-state truth
 
 ## What it does not do
 
@@ -68,7 +69,7 @@ That separation must remain explicit.
 
 ## Public surface
 
-The public surface of this repository is its repository identity, README boundary, and any explicitly published ORBISTIUM canonical-state materials carried by this repository.
+The public surface of this repository is its repository identity, README boundary, the current accepted-epoch object, and any explicitly published ORBISTIUM canonical-state materials carried by this repository.
 
 Publication here is not law.
 Publication here is not execution.
@@ -109,6 +110,14 @@ What does not become canonical merely by reference:
 - reconciliation projections around the state
 
 Reference is not canonization.
+
+
+## Accepted-epoch object
+
+- current active accepted-epoch object: `epochs/current/accepted-epoch-0001.json`
+- historical accepted-epoch archive: `epochs/history/`
+- this object binds the current canonical state boundary to one machine-readable accepted-epoch entry surface
+
 
 ## Not this
 

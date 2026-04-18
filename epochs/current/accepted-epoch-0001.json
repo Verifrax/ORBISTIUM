@@ -1,0 +1,28 @@
+{
+  "object_type": "AcceptedEpoch",
+  "accepted_epoch_id": "accepted-epoch-0001",
+  "status": "ACTIVE_TRUTH",
+  "epoch_ref": "current/epoch.json",
+  "historical_archive_ref": "epochs/history/",
+  "law_repo": "SYNTAGMARIUM",
+  "law_version_ref": "SYNTAGMARIUM@6657b6369a884ad6d0677679aedaab5c82274a7b",
+  "runtime_version_ref": "0.1.0",
+  "graph_ref": "current/graph.json",
+  "trust_summary_ref": "current/trust-summary.json",
+  "digest_ref": "current/digest.txt",
+  "proof_bundle_ref": "current/proof-bundle.json",
+  "contradictions_ref": "current/contradictions.json",
+  "repairs_ref": "current/repairs.json",
+  "quarantine_ref": "current/quarantine.json",
+  "required_truth_types": [
+    "ACTIVE_TRUTH",
+    "HISTORICAL_SNAPSHOT",
+    "DERIVED_PROJECTION",
+    "EVIDENCE_OBJECT"
+  ],
+  "notes": [
+    "This object is the machine-readable current accepted-epoch entry surface for ORBISTIUM.",
+    "It binds current epoch, graph, trust-summary, digest, contradiction, repair, quarantine, and proof surfaces into one active accepted-epoch object.",
+    "Historical accepted epochs must move to the explicit history archive and must not impersonate this current object."
+  ]
+}
