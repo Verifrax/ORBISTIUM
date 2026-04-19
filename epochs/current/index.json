@@ -1,0 +1,16 @@
+{
+  "object_type": "AcceptedEpochIndex",
+  "status": "ACTIVE_TRUTH",
+  "historical": false,
+  "current_accepted_epoch_ref": "epochs/current/accepted-epoch-0001.json",
+  "entries": [
+    {
+      "accepted_epoch_id": "accepted-epoch-0001",
+      "path": "epochs/current/accepted-epoch-0001.json",
+      "epoch_ref": "current/epoch.json",
+      "graph_ref": "current/graph.json",
+      "trust_summary_ref": "current/trust-summary.json",
+      "digest_ref": "current/digest.txt"
+    }
+  ]
+}
