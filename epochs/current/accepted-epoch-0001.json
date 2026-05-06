@@ -2,27 +2,44 @@
   "object_type": "AcceptedEpoch",
   "accepted_epoch_id": "accepted-epoch-0001",
   "status": "ACTIVE_TRUTH",
-  "epoch_ref": "current/epoch.json",
-  "historical_archive_ref": "epochs/history/",
-  "law_repo": "SYNTAGMARIUM",
-  "law_version_ref": "SYNTAGMARIUM@6657b6369a884ad6d0677679aedaab5c82274a7b",
-  "runtime_version_ref": "0.1.0",
-  "graph_ref": "current/graph.json",
-  "trust_summary_ref": "current/trust-summary.json",
-  "digest_ref": "current/digest.txt",
-  "proof_bundle_ref": "current/proof-bundle.json",
-  "contradictions_ref": "current/contradictions.json",
-  "repairs_ref": "current/repairs.json",
-  "quarantine_ref": "current/quarantine.json",
-  "required_truth_types": [
-    "ACTIVE_TRUTH",
-    "HISTORICAL_SNAPSHOT",
-    "DERIVED_PROJECTION",
-    "EVIDENCE_OBJECT"
+  "governing_boundary": "ORBISTIUM",
+  "purpose": "Declare the first accepted epoch for the bounded constitutional object chain and prevent projections from inferring current state from repo, host, package, or README freshness.",
+  "chain_lock_ref": "https://github.com/Verifrax/ORBISTIUM/blob/main/chains/current/minimum-object-chain-lock-0001.json",
+  "claim_class_state_ref": "https://github.com/Verifrax/ORBISTIUM/blob/main/claim-classes/current/accepted-claim-class-state-0001.json",
+  "admissions_ref": "https://github.com/Verifrax/.github/blob/main/governance/ADMISSIONS.json",
+  "projection_lock_ref": "https://github.com/Verifrax/CONSONORIUM/blob/main/projections/current/projection-lock-0001.json",
+  "epoch_scope": "artifact-0005 minimum governed object chain",
+  "epoch_subject_ref": "https://github.com/Verifrax/VERIFRAX/blob/main/evidence/artifact-0005/artifact-0005.json",
+  "epoch_stage_count": 9,
+  "accepted_claim_classes": [
+    "law-version",
+    "freeze-object",
+    "accepted-epoch",
+    "authority-object",
+    "execution-receipt",
+    "verification-result",
+    "recognition-object",
+    "recourse-object",
+    "continuity-transfer"
   ],
-  "notes": [
-    "This object is the machine-readable current accepted-epoch entry surface for ORBISTIUM.",
-    "It binds current epoch, graph, trust-summary, digest, contradiction, repair, quarantine, and proof surfaces into one active accepted-epoch object.",
-    "Historical accepted epochs must move to the explicit history archive and must not impersonate this current object."
+  "accepted_counts": {
+    "governed_repository_count": 35,
+    "public_repository_count": 36,
+    "sovereign_chamber_count": 9,
+    "host_count": 12,
+    "npm_package_count": 18,
+    "core_package_order_count": 16,
+    "pypi_package_boundary_count": 1,
+    "private_internal_package_count": 1
+  },
+  "dominance_rule": "This accepted epoch is the active ORBISTIUM epoch for the bounded chain. Projections may cite it but may not advance, rewind, rename, replace, or expand it.",
+  "refusal_rule": "If an active claim depends on an epoch but the accepted epoch object is absent, stale, ambiguous, or contradicted by projection text, ADMISSORIUM and SDKs must refuse rather than infer epoch state.",
+  "forbidden_reads": [
+    "Git commit time presented as accepted epoch",
+    "README freshness presented as accepted epoch",
+    "host deployment freshness presented as accepted epoch",
+    "package release date presented as accepted epoch",
+    "status page freshness presented as accepted epoch",
+    "ADMISSORIUM report presented as accepted epoch"
   ]
 }
