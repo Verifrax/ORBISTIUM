@@ -1,0 +1,15 @@
+{
+  "object_type": "MinimumObjectChainLockIndex",
+  "status": "ACTIVE_TRUTH",
+  "governing_boundary": "ORBISTIUM",
+  "current_chain_lock_ref": "chains/current/minimum-object-chain-lock-0001.json",
+  "entries": [
+    {
+      "chain_lock_id": "minimum-object-chain-lock-0001",
+      "path": "chains/current/minimum-object-chain-lock-0001.json",
+      "status": "ACTIVE_TRUTH",
+      "subject": "artifact-0005"
+    }
+  ],
+  "historical_archive_ref": "chains/history/"
+}

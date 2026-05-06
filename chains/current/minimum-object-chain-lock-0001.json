@@ -1,0 +1,88 @@
+{
+  "object_type": "MinimumObjectChainLock",
+  "chain_lock_id": "minimum-object-chain-lock-0001",
+  "status": "ACTIVE_TRUTH",
+  "governing_boundary": "ORBISTIUM",
+  "governing_law_version_ref": "https://github.com/Verifrax/SYNTAGMARIUM/blob/main/law/versions/current/law-version-0001.json",
+  "governing_freeze_object_ref": "https://github.com/Verifrax/SYNTAGMARIUM/blob/main/freeze/objects/current/freeze-object-0001.json",
+  "accepted_epoch_ref": "https://github.com/Verifrax/ORBISTIUM/blob/main/epochs/current/accepted-epoch-0001.json",
+  "chain_scope": "minimum governed object chain for artifact-0005",
+  "subject_ref": "https://github.com/Verifrax/VERIFRAX/blob/main/evidence/artifact-0005/artifact-0005.json",
+  "chain": [
+    {
+      "stage": 1,
+      "claim_class": "law-version",
+      "owner": "SYNTAGMARIUM",
+      "object_ref": "https://github.com/Verifrax/SYNTAGMARIUM/blob/main/law/versions/current/law-version-0001.json",
+      "status": "ACTIVE_TRUTH"
+    },
+    {
+      "stage": 2,
+      "claim_class": "freeze-object",
+      "owner": "SYNTAGMARIUM",
+      "object_ref": "https://github.com/Verifrax/SYNTAGMARIUM/blob/main/freeze/objects/current/freeze-object-0001.json",
+      "status": "ACTIVE_TRUTH"
+    },
+    {
+      "stage": 3,
+      "claim_class": "accepted-epoch",
+      "owner": "ORBISTIUM",
+      "object_ref": "https://github.com/Verifrax/ORBISTIUM/blob/main/epochs/current/accepted-epoch-0001.json",
+      "status": "ACTIVE_TRUTH"
+    },
+    {
+      "stage": 4,
+      "claim_class": "authority-object",
+      "owner": "AUCTORISEAL",
+      "object_ref": "https://github.com/Verifrax/AUCTORISEAL/blob/main/authorities/current/authority-object-0001.json",
+      "status": "ACTIVE_TRUTH"
+    },
+    {
+      "stage": 5,
+      "claim_class": "execution-receipt",
+      "owner": "CORPIFORM",
+      "object_ref": "https://github.com/Verifrax/CORPIFORM/blob/main/receipts/current/execution-receipt-0001.json",
+      "status": "ACTIVE_TRUTH"
+    },
+    {
+      "stage": 6,
+      "claim_class": "verification-result",
+      "owner": "VERIFRAX",
+      "object_ref": "https://github.com/Verifrax/VERIFRAX/blob/main/verification/results/current/verification-result-0001.json",
+      "status": "ACTIVE_TRUTH"
+    },
+    {
+      "stage": 7,
+      "claim_class": "recognition-object",
+      "owner": "ANAGNORIUM",
+      "object_ref": "https://github.com/Verifrax/ANAGNORIUM/blob/main/recognitions/current/recognition-object-0001.json",
+      "status": "ACTIVE_TRUTH"
+    },
+    {
+      "stage": 8,
+      "claim_class": "recourse-object",
+      "owner": "REGRESSORIUM",
+      "object_ref": "https://github.com/Verifrax/REGRESSORIUM/blob/main/claims/current/recourse-object-0001.json",
+      "status": "ACTIVE_TRUTH"
+    },
+    {
+      "stage": 9,
+      "claim_class": "continuity-transfer",
+      "owner": "SYNTAGMARIUM",
+      "object_ref": "https://github.com/Verifrax/SYNTAGMARIUM/blob/main/continuity/objects/current/continuity-transfer-0001.json",
+      "status": "ACTIVE_TRUTH"
+    }
+  ],
+  "dominance_rule": "Lower-precedence projections may cite this chain lock but may not override, renumber, reorder, omit, or replace its active chain.",
+  "replay_rule": "A replay bundle must be able to resolve every chain object and reproduce the verification result or return explicit refusal.",
+  "projection_rule": "Every public count, role table, chain diagram, host page, package table, and README summary must derive from this chain lock or from a declared subordinate projection object.",
+  "admission_rule": "Any public surface referenced as part of this chain must be admitted by a governed registry object or explicitly marked external/subordinate.",
+  "forbidden_reads": [
+    "root observatory count presented as accepted state",
+    "README table presented as chain authority",
+    "package metadata presented as chain authority",
+    "GitHub repository existence presented as admission",
+    "SDK package existence presented as sovereign participation",
+    "ADMISSORIUM report presented as truth source"
+  ]
+}
