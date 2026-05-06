@@ -1,0 +1,13 @@
+{
+  "object_type": "AcceptedClaimClassStateIndex",
+  "status": "ACTIVE_TRUTH",
+  "governing_boundary": "ORBISTIUM",
+  "current_accepted_claim_class_state_ref": "claim-classes/current/accepted-claim-class-state-0001.json",
+  "entries": [
+    {
+      "accepted_claim_class_state_id": "accepted-claim-class-state-0001",
+      "path": "claim-classes/current/accepted-claim-class-state-0001.json",
+      "status": "ACTIVE_TRUTH"
+    }
+  ]
+}
