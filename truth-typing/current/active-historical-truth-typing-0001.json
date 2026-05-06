@@ -1,0 +1,84 @@
+{
+  "object_type": "ActiveHistoricalTruthTyping",
+  "typing_id": "active-historical-truth-typing-0001",
+  "status": "ACTIVE_TRUTH",
+  "accepted_epoch_ref": "epochs/current/accepted-epoch-0001.json",
+  "chain_lock_ref": "chains/current/minimum-object-chain-lock-0001.json",
+  "truth_categories": [
+    "ACTIVE_LAW",
+    "ACTIVE_TRUTH",
+    "ACTIVE_INDEX",
+    "EVIDENCE_OBJECT",
+    "HISTORICAL_SNAPSHOT",
+    "DERIVED_PROJECTION",
+    "STATUS_SURFACE_NOT_TRUTH_SOURCE",
+    "QUARANTINED",
+    "TRANSITIONAL"
+  ],
+  "current_truth_refs": [
+    {
+      "object_family": "claim-class-admission",
+      "truth_kind": "ACTIVE_LAW",
+      "ref": "SYNTAGMARIUM/claim-classes/current/claim-class-admission-0001.json"
+    },
+    {
+      "object_family": "accepted-claim-class-state",
+      "truth_kind": "ACTIVE_TRUTH",
+      "ref": "ORBISTIUM/claim-classes/current/accepted-claim-class-state-0001.json"
+    },
+    {
+      "object_family": "chain-lock",
+      "truth_kind": "ACTIVE_TRUTH",
+      "ref": "ORBISTIUM/chains/current/minimum-object-chain-lock-0001.json"
+    },
+    {
+      "object_family": "accepted-epoch",
+      "truth_kind": "ACTIVE_TRUTH",
+      "ref": "ORBISTIUM/epochs/current/accepted-epoch-0001.json"
+    },
+    {
+      "object_family": "freeze-object",
+      "truth_kind": "ACTIVE_TRUTH",
+      "ref": "SYNTAGMARIUM/freeze/objects/current/freeze-object-0001.json"
+    },
+    {
+      "object_family": "authority-object",
+      "truth_kind": "ACTIVE_TRUTH",
+      "ref": "AUCTORISEAL/authorities/current/authority-object-0001.json"
+    },
+    {
+      "object_family": "replay-bundle",
+      "truth_kind": "EVIDENCE_OBJECT",
+      "ref": "VERIFRAX/replay/current/replay-bundle-0001.json"
+    },
+    {
+      "object_family": "verification-result",
+      "truth_kind": "ACTIVE_TRUTH",
+      "ref": "VERIFRAX/verification/current/verification-result-0001.json"
+    },
+    {
+      "object_family": "recognition-object",
+      "truth_kind": "ACTIVE_TRUTH",
+      "ref": "ANAGNORIUM/recognition/current/recognition-object-0001.json"
+    },
+    {
+      "object_family": "recourse-object",
+      "truth_kind": "ACTIVE_TRUTH",
+      "ref": "REGRESSORIUM/recourse/current/recourse-object-0001.json"
+    },
+    {
+      "object_family": "continuity-transfer",
+      "truth_kind": "ACTIVE_TRUTH",
+      "ref": ".github/governance/continuity/current/continuity-transfer-0001.json"
+    }
+  ],
+  "historical_material_policy": "MUST_SELF_IDENTIFY_AS_HISTORICAL",
+  "projection_policy": "PROJECTIONS_NEVER_ACTIVE_TRUTH",
+  "status_surface_policy": "STATUS_SURFACES_NOT_TRUTH_SOURCE",
+  "current_truth_policy": "ONE_ACTIVE_TRUTH_PER_OBJECT_FAMILY",
+  "may_promote_projection_to_truth": false,
+  "may_promote_status_to_truth": false,
+  "may_promote_historical_snapshot_to_current": false,
+  "may_infer_missing_truth": false,
+  "truth_warning": "TYPING_OBJECT_CLASSIFIES_TRUTH_STATUS_NOT_OBJECT_CONTENT"
+}

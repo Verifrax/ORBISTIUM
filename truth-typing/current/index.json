@@ -1,0 +1,7 @@
+{
+  "object_type": "ActiveHistoricalTruthTypingIndex",
+  "status": "ACTIVE_INDEX",
+  "current_truth_typing_id": "active-historical-truth-typing-0001",
+  "current_truth_typing_ref": "truth-typing/current/active-historical-truth-typing-0001.json",
+  "truth_warning": "INDEX_POINTER_NOT_TRUTH_CONTENT"
+}
