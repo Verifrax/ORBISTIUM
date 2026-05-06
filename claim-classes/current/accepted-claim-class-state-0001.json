@@ -1,0 +1,22 @@
+{
+  "object_type": "AcceptedClaimClassState",
+  "accepted_claim_class_state_id": "accepted-claim-class-state-0001",
+  "status": "ACTIVE_TRUTH",
+  "governing_boundary": "ORBISTIUM",
+  "claim_class_admission_ref": "https://github.com/Verifrax/SYNTAGMARIUM/blob/main/claim-classes/current/claim-class-admission-0001.json",
+  "chain_lock_ref": "https://github.com/Verifrax/ORBISTIUM/blob/main/chains/current/minimum-object-chain-lock-0001.json",
+  "accepted_chain_stage_count": 9,
+  "accepted_claim_classes": [
+    "law-version",
+    "freeze-object",
+    "accepted-epoch",
+    "authority-object",
+    "execution-receipt",
+    "verification-result",
+    "recognition-object",
+    "recourse-object",
+    "continuity-transfer"
+  ],
+  "dominance_rule": "Accepted claim class state is current state for claim-class participation. Lower projections may cite it but may not add, remove, rename, reorder, or substitute claim classes.",
+  "refusal_rule": "If a claim class is absent from the accepted claim class state, ADMISSORIUM and SDKs must refuse rather than infer admission from topology, prose, package metadata, or host availability."
+}
