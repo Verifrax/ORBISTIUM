@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "system": "VERIFRAX",
+  "subsystem": "ORBISTIUM",
+  "subsystem_version": "0.1.0",
+  "kernel": "STATE_KERNEL",
+  "answers": "WHAT_IS_STATE",
+  "state": "ORBISTIUM_V010_STATE_KERNEL_OPEN",
+  "system_complete": false,
+  "guards": {
+    "real_writer": false,
+    "token_persistence": false,
+    "truth_mutation": false
+  },
+  "source_public_control_chain_state": "ORBISTIUM_V010_PUBLIC_CONTROL_CHAIN_OPEN",
+  "source_public_control_intake_sha": "1e2e0f4b68d8203a717f00fee7a3a255278af40d"
+}
